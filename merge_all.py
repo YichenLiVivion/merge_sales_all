@@ -12,7 +12,7 @@ with open('parquet_file_paths.txt', 'r') as file:
 
 # Define paths for output files
 split_folder = os.path.join(os.getcwd(), 'split_files')
-output_path = r'D:\sales_all_303132_apr10.parquet'
+output_path = r'D:\sales_all_29303132_apr23.parquet'
 
 # Ensure the directory for split files exists
 os.makedirs(split_folder, exist_ok=True)
